@@ -7,27 +7,8 @@ https://medium.com/dirtyjs/how-to-deploy-vue-js-app-in-one-line-with-docker-digi
 
 ## Build Setup
 
-``` bash
-# install dependencies
-npm install
+'''Docker
+docker build -t name-of-image .
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# Run container
+docker run -p 3000:80 id-of-built-image/name of the image
