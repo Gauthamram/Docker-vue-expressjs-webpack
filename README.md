@@ -6,9 +6,7 @@ https://medium.com/dirtyjs/how-to-deploy-vue-js-app-in-one-line-with-docker-digi
 > changing from jquery components to vue components that has been used in fusion portal
 
 ## Build Setup
-
-'''Docker
 docker build -t name-of-image .
 
-# Run container
+## Run container
 docker run -p 3000:80 id-of-built-image/name of the image
